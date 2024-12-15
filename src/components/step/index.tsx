@@ -7,7 +7,7 @@ import { s } from './styles'
 type Props = {
     title: string
     description: string
-    icon: React.ComponentType<IconProps>
+    icon?: React.ComponentType<IconProps>
 }
 
 export function Step({ title, description, icon: Icon }: Props) {
